@@ -8,10 +8,12 @@
  * Controller of the mugan86App
  */
 angular.module('mugan86App')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($rootScope) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+    $rootScope.url = 'images/post-bg.jpg';
   });
