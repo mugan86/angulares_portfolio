@@ -19,6 +19,9 @@ angular
     'ngSanitize',
     'ngTouch'
   ])
+  .run(function($rootScope) {
+    $rootScope.url = 'images/home-bg.jpg';
+  })
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
@@ -30,6 +33,11 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactCtrl',
+        controllerAs: 'contact'
       })
       .otherwise({
         redirectTo: '/'
