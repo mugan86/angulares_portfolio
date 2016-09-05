@@ -18,7 +18,7 @@ https://nodejs.org/en/
 
 ### Clone repo: 
 
-`git clone https://github.com/mugan86/angular-js-web-show-data-apis.git`
+`https://github.com/mugan86/angularjs_portfolio.git`
 
 ### Install dependencies
 
