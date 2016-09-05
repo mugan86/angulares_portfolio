@@ -17,11 +17,37 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'pascalprecht.translate'
   ])
   .run(function($rootScope) {
     $rootScope.url = 'images/home-bg.jpg';
+
+    $rootScope.changeLanguage = function(lang)
+    {
+      console.log('Change language: ' + lang);
+    };
   })
+  .config(['$translateProvider', function ($translateProvider) {
+    $translateProvider.translations('en', translations_en);
+   
+    $translateProvider.translations('es', translations_es);
+
+    $translateProvider.translations('eu', translations_es);
+ 
+    $translateProvider.preferredLanguage('en');
+    // Enable escaping of HTML
+    $translateProvider.useSanitizeValueStrategy('escape');
+
+    console.log('LANG: '+ window.localStorage.getItem('lang'));
+
+    if (window.localStorage.getItem('lang') === null || window.localStorage.getItem('lang') === '')
+    {
+      window.localStorage.setItem('lang','en');
+    }
+
+    
+}])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
