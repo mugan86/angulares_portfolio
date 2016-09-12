@@ -15,5 +15,5 @@ angular.module('mugan86App')
       'Karma'
     ];
 
-    $rootScope.url = 'http://lorempixel.com/output/city-q-c-1920-1920-2.jpg';
+    $rootScope.url = 'images/river.jpg';
   });
