@@ -26,6 +26,8 @@ angular
     $rootScope.changeLanguage = function(lang)
     {
       console.log('Change language: ' + lang);
+      window.localStorage.setItem('lang', lang);
+      window.reload(true);
     };
   })
   .config(['$translateProvider', function ($translateProvider) {
@@ -33,9 +35,9 @@ angular
    
     $translateProvider.translations('es', translations_es);
 
-    $translateProvider.translations('eu', translations_es);
+    $translateProvider.translations('eu', translations_eu);
  
-    $translateProvider.preferredLanguage('en');
+    $translateProvider.preferredLanguage(window.localStorage.getItem('lang'));
     // Enable escaping of HTML
     $translateProvider.useSanitizeValueStrategy('escape');
 
@@ -64,6 +66,16 @@ angular
         templateUrl: 'views/contact.html',
         controller: 'ContactCtrl',
         controllerAs: 'contact'
+      })
+      .when('/projects', {
+        templateUrl: 'views/projects.html',
+        controller: 'ProjectsCtrl',
+        controllerAs: 'projects'
+      })
+      .when('/portfolio', {
+        templateUrl: 'views/portfolio.html',
+        controller: 'PortfolioCtrl',
+        controllerAs: 'portfolio'
       })
       .otherwise({
         redirectTo: '/'
