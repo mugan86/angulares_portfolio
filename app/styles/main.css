@@ -9,6 +9,18 @@ body {
   padding: 0;
 }
 
+.open, #dLabel
+{
+  background: transparent !important;
+  color: white !important;
+
+}
+
+#languages li a
+{
+  color:#333 !important;
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -80,4 +92,64 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+}
+
+@media screen and (max-width: 768px){
+  .open, #dLabel
+  {
+    background: transparent !important;
+    color: #828282 !important;
+  }
+
+  #dLabel:hover {
+    color: #333 !important;
+  }
+}
+
+/* Events styles */
+
+.event .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.event .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.35s ease;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    -ms-transition: all 0.35s ease;
+    border-radius: inherit;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.event .overlay {
+    background-color: rgba(0,0,255,0.15);
+}
+
+.event .label.date {
+    font-size: 20px;
+}
+
+.event {
+    padding: 1em;
+}
+
+.event p {
+    margin-top: 1em;
+}
+
+/*Projects */
+
+.card {
+    padding: 0;
 }
