@@ -27,7 +27,7 @@ angular
     {
       console.log('Change language: ' + lang);
       window.localStorage.setItem('lang', lang);
-      window.reload(true);
+      window.location.reload();
     };
   })
   .config(['$translateProvider', function ($translateProvider) {
