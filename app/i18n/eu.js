@@ -6,6 +6,7 @@ var translations_eu = {
   	'BASQUE': 'Euskara',
   	'SPANISH': 'Español',
   	'ENGLISH': 'English',
+    /*******MENUS***********/
   	'HOME': 'Hasiera',
   	'ABOUT': 'Niri buruz',
   	'EVENTS': 'Ebentoak',
@@ -13,5 +14,10 @@ var translations_eu = {
   	'CONTACT': 'Kontaktua',
   	'PROYECTS': 'Proiektuak',
   	'PROJECTS_LIST': 'Proiektu zerrenda',
-  	'PROJECT_DESC': 'A continuación, podéis ver los proyectos en los que he trabajado ordenados desde el más actual al más antiguo. Estará etiquetado con finalizado o no finalizado, tipo de proyecto y más datos interesantes.'
+  	'PROJECT_DESC': 'A continuación, podéis ver los proyectos en los que he trabajado ordenados desde el más actual al más antiguo. Estará etiquetado con finalizado o no finalizado, tipo de proyecto y más datos interesantes.',
+    /*******CONTACT*********/
+    'NAME': 'Izena',
+    'EMAIL': 'Posta elektronikoa',
+    'MESSAGE': 'Mezua',
+    'SEND': 'Bidali'
 };  

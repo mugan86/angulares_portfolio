@@ -6,6 +6,7 @@ var translations_es = {
   	'BASQUE': 'Euskara',
   	'SPANISH': 'Español',
   	'ENGLISH': 'English',
+    /*******MENUS***********/
   	'HOME': 'Inicio',
   	'ABOUT': 'Sobre mi',
   	'EVENTS': 'Eventos',
@@ -13,5 +14,10 @@ var translations_es = {
   	'CONTACT': 'Contacto',
   	'PROYECTS': 'Proyectos',
   	'PROJECTS_LIST': 'Lista de proyectos',
-  	'PROJECT_DESC': 'A continuación, podéis ver los proyectos en los que he trabajado ordenados desde el más actual al más antiguo. Estará etiquetado con finalizado o no finalizado, tipo de proyecto y más datos interesantes.'
+  	'PROJECT_DESC': 'A continuación, podéis ver los proyectos en los que he trabajado ordenados desde el más actual al más antiguo. Estará etiquetado con finalizado o no finalizado, tipo de proyecto y más datos interesantes.',
+    /*******CONTACT*********/
+    'NAME': 'Nombre',
+    'EMAIL': 'Correo electrónico',
+    'MESSAGE': 'Mensaje',
+    'SEND': 'Enviar'
 };  
