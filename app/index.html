@@ -93,9 +93,9 @@
                         {{'LANGUAGE' | translate}} <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu multi-level" id ="languages" role="menu" aria-labelledby="dropdownMenu">
-                          <li><a ng-click="changeLanguage('en')">{{ 'ENGLISH' | translate }}</a></li>
-                          <li><a ng-click="changeLanguage('es')">{{ 'SPANISH' | translate }}</a></li>
-                          <li><a ng-click="changeLanguage('eu')">{{ 'BASQUE' | translate }}</a></li>
+                          <li><a ng-click="changeLanguage('en')" ng-hide="selectLanguage == 'en'">{{ 'ENGLISH' | translate }}</a></li>
+                          <li><a ng-click="changeLanguage('es')" ng-hide="selectLanguage == 'es'">{{ 'SPANISH' | translate }}</a></li>
+                          <li><a ng-click="changeLanguage('eu')" ng-hide="selectLanguage == 'eu'">{{ 'BASQUE' | translate }}</a></li>
                           <!--<li class="divider"></li>
                           <li class="dropdown-submenu">
                             <a tabindex="-1" href="#">Hover me for more options</a>
@@ -156,7 +156,7 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
                         <li>
-                            <a href="https://twitter.com/ImanolLoizaga" target="_blank">
+                            <a href="https://twitter.com/mugan86" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
