@@ -29,6 +29,14 @@ angular
       window.localStorage.setItem('lang', lang);
       window.location.reload();
     };
+
+    if (window.localStorage.getItem('lang') === null || window.localStorage.getItem('lang') === '')
+    {
+      window.localStorage.setItem('lang','en');
+    }
+    $rootScope.selectLanguage = window.localStorage.getItem('lang');
+    
+    
   })
   .config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en', translations_en);
