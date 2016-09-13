@@ -19,5 +19,10 @@ var translations_eu = {
     'NAME': 'Izena',
     'EMAIL': 'Posta elektronikoa',
     'MESSAGE': 'Mezua',
-    'SEND': 'Bidali'
+    'SEND': 'Bidali',
+     /*******ABOUT ME*********/
+    'JOB': 'App / Web garatzailea',
+    'EDUCATION': 'Formakuntza',
+    'LANGUAGES': 'Hizkuntzak',
+    'INTERESTS': 'Interesak'
 };  

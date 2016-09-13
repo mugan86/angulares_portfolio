@@ -19,5 +19,10 @@ var translations_es = {
     'NAME': 'Nombre',
     'EMAIL': 'Correo electrónico',
     'MESSAGE': 'Mensaje',
-    'SEND': 'Enviar'
+    'SEND': 'Enviar',
+     /*******ABOUT ME*********/
+    'JOB': 'Desarrollador App / Web',
+    'EDUCATION': 'Formaci&oacute;n',
+    'LANGUAGES': 'Idiomas',
+    'INTERESTS': 'Intereses'
 };  

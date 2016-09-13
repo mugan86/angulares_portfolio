@@ -19,5 +19,10 @@ var translations_en = {
     'NAME': 'Name',
     'EMAIL': 'E-mail',
     'MESSAGE': 'Message',
-    'SEND': 'Send'
+    'SEND': 'Send',
+     /*******ABOUT ME*********/
+    'JOB': 'Full Stack Developer',
+    'EDUCATION': 'Education',
+    'LANGUAGES': 'LANGUAGES',
+    'INTERESTS': 'Interests'
 };  
