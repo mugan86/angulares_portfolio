@@ -16,4 +16,5 @@ angular.module('mugan86App')
     ];
 
     $rootScope.url = 'images/post-bg.jpg';
+    $rootScope.selectLanguage = window.localStorage.getItem('lang');
   });
