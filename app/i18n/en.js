@@ -24,5 +24,13 @@ var translations_en = {
     'JOB': 'Full Stack Developer',
     'EDUCATION': 'Education',
     'LANGUAGES': 'LANGUAGES',
-    'INTERESTS': 'Interests'
+    'INTERESTS': 'Interests',
+    'BASQUE_LANG': 'Euskara',
+    'SPANISH_LANG': 'Spanish',
+    'ENGLISH_LANG': 'English',
+    'TECH_LANG': '(Professional)',
+    'NATIVE': '(Native)',
+    'DEGREE_ING_UNED': 'Degree in Computer Engineering',
+    'DAM': 'DAM',
+    'STI': 'STI'
 };  

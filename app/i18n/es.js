@@ -24,5 +24,13 @@ var translations_es = {
     'JOB': 'Desarrollador App / Web',
     'EDUCATION': 'Formaci&oacute;n',
     'LANGUAGES': 'Idiomas',
-    'INTERESTS': 'Intereses'
+    'INTERESTS': 'Intereses',
+    'BASQUE_LANG': 'Euskara',
+    'SPANISH_LANG': 'Español',
+    'ENGLISH_LANG': 'Inglés',
+    'TECH_LANG': '(Idioma-Técnico)',
+    'NATIVE': '(Nativo)',
+    'DEGREE_ING_UNED': 'UNED - Degree in Computer Engineering',
+    'DAM': 'DAM',
+    'STI': 'STI'
 };  

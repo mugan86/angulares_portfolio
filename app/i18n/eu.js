@@ -24,5 +24,13 @@ var translations_eu = {
     'JOB': 'App / Web garatzailea',
     'EDUCATION': 'Formakuntza',
     'LANGUAGES': 'Hizkuntzak',
-    'INTERESTS': 'Interesak'
+    'INTERESTS': 'Interesak',
+    'BASQUE_LANG': 'Euskara',
+    'SPANISH_LANG': 'Euskara',
+    'ENGLISH_LANG': 'Euskara',
+    'TECH_LANG': '(Hizkuntza-Teknikoa)',
+    'NATIVE': '(Ama-Hizkuntza)',
+    'DEGREE_ING_UNED': 'UNED - Degree in Computer Engineering',
+    'DAM': 'DAM',
+    'STI': 'STI'
 };  
