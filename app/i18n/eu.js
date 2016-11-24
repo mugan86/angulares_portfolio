@@ -32,5 +32,8 @@ var translations_eu = {
     'NATIVE': '(Ama-Hizkuntza)',
     'DEGREE_ING_UNED': 'UNED - Degree in Computer Engineering',
     'DAM': 'DAM',
-    'STI': 'STI'
+    'STI': 'STI',
+    /********PORTFOLIO*********/
+    'ANDROID_UTILS_LIB_DESC': 'Android library where I add the most used functions in my Android applications. Multi-language apps, access to an internal WebView passing the URL, Internet connection options, Location, ...',
+    'MORE_INFO': 'Informazio gehiago'
 };  

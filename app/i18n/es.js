@@ -32,5 +32,8 @@ var translations_es = {
     'NATIVE': '(Nativo)',
     'DEGREE_ING_UNED': 'UNED - Degree in Computer Engineering',
     'DAM': 'DAM',
-    'STI': 'STI'
+    'STI': 'STI',
+    /********PORTFOLIO*********/
+    'ANDROID_UTILS_LIB_DESC': 'Librería Android donde añado las funciones más utilizadas en mis aplicaciones de Android. Apps multidioma, acceso a un WebView interno pasando la URL, opciones de conexiones a Internet, Localización,...',
+    'MORE_INFO': 'Más información'
 };  
