@@ -30,6 +30,8 @@ angular
       window.location.reload();
     };
 
+    $rootScope.titlePage = "Anartz Muxika";
+
     if (window.localStorage.getItem('lang') === null || window.localStorage.getItem('lang') === '')
     {
       window.localStorage.setItem('lang','en');
