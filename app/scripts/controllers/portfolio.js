@@ -16,4 +16,5 @@ angular.module('mugan86App')
     ];
 
     $rootScope.url = 'images/river.jpg';
+    $rootScope.titlePage = "Portfolio";
   });

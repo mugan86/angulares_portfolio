@@ -16,4 +16,5 @@ angular.module('mugan86App')
     ];
 
     $rootScope.url = 'http://lorempixel.com/output/city-q-c-1920-1920-2.jpg';
+    $rootScope.titlePage = "Projects";
   });
